@@ -27,6 +27,10 @@ const about = {
       desc: "Amir Khan",
     },
     {
+      title: "Nationality",
+      desc: "Indian",
+    },
+    {
       title: "Phone",
       desc: "+91 886-600-8738",
     },
@@ -39,21 +43,17 @@ const about = {
       desc: "amirkhandev@gmail.com",
     },
     {
+      title: "Freelance",
+      desc: "Available",
+    },
+    {
       title: "Skype",
       desc: "amirkhan_ind",
     },
 
     {
-      title: "Nationality",
-      desc: "Indian",
-    },
-    {
-      title: "Freelance",
-      desc: "Available",
-    },
-    {
       title: "Languages",
-      desc: "English, Hindi, Bengali",
+      desc: "English,Hindi,Bengali",
     },
   ],
 };
@@ -97,16 +97,16 @@ const experience = {
 
 const education = {
   icon: "/assets/resume/cap.svg",
-  title: "My Experience",
+  title: "My Education",
   desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat quae et, est fugit totam assumenda fugiat, doloribus voluptatibus deserunt",
   items: [
     {
-      institution: "Global Insitute of Science & Technology",
+      institution: "GIST",
       degree: "Diploma in Computer Science & Engineering",
       duration: "2007-2010",
     },
     {
-      institution: "Techno India College of Technology",
+      institution: "TICT",
       degree: "B.tech in Computer Science & Engineering",
       duration: "2010-2014",
     },
@@ -289,7 +289,7 @@ const Resume = () => {
                         className="flex items-center justify-center xl:justify-start gap-4"
                       >
                         <span className="text-white/60">{item.title}</span>
-                        <span className="text-xl">{item.desc}</span>
+                        <span className="text-md">{item.desc}</span>
                       </li>
                     );
                   })}
