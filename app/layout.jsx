@@ -9,7 +9,6 @@ const jetBrainsMono = JetBrains_Mono({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800"],
   variable: "--font-jetbrains-mono",
 });
-
 export const metadata = {
   title: "Amir Khan || Portfolio",
   description: "Full Stack Developer",
