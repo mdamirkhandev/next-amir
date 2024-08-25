@@ -16,11 +16,12 @@ import {
   FaNodeJs,
   FaPhp,
   FaReact,
+  FaWordpress,
 } from "react-icons/fa";
 import { SiNextdotjs, SiTailwindcss } from "react-icons/si";
 const about = {
   title: "About Me",
-  desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat quae et, est fugit totam assumenda fugiat, doloribus voluptatibus deserunt",
+  desc: "Experienced full-stack web developer adept at crafting dynamic applications, integrating technologies, and optimizing performance for exceptional user experiences.",
   info: [
     {
       title: "Name",
@@ -36,7 +37,7 @@ const about = {
     },
     {
       title: "Experience",
-      desc: "5+ Years",
+      desc: "3+ Years",
     },
     {
       title: "Email",
@@ -44,7 +45,7 @@ const about = {
     },
     {
       title: "Freelance",
-      desc: "Available",
+      desc: "Not Available",
     },
     {
       title: "Skype",
@@ -60,36 +61,21 @@ const about = {
 const experience = {
   icon: "/assets/resume/badge.svg",
   title: "My Experience",
-  desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat quae et, est fugit totam assumenda fugiat, doloribus voluptatibus deserunt",
+  desc: "3+ years of experience in Laravel, WordPress, and React.js, specializing in building robust web applications and dynamic user interfaces.",
   items: [
     {
       company: "Manee Diam C.o, Ltd.",
-      position: "Data Scientist",
+      position: "Data Analysis & Web Devloper",
       duration: "2017-2020",
     },
     {
       company: "Freelancing",
-      position: "Full Stack Developer",
+      position: "Full-Stack Developer",
       duration: "2020-2022",
     },
     {
       company: "Adbrains Technologies",
-      position: "Full Stack Developer",
-      duration: "2022-Present",
-    },
-    {
-      company: "Adbrains Technologies",
-      position: "Full Stack Developer",
-      duration: "2022-Present",
-    },
-    {
-      company: "Adbrains Technologies",
-      position: "Full Stack Developer",
-      duration: "2022-Present",
-    },
-    {
-      company: "Adbrains Technologies",
-      position: "Full Stack Developer",
+      position: "Full-Stack Developer",
       duration: "2022-Present",
     },
   ],
@@ -98,7 +84,7 @@ const experience = {
 const education = {
   icon: "/assets/resume/cap.svg",
   title: "My Education",
-  desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat quae et, est fugit totam assumenda fugiat, doloribus voluptatibus deserunt",
+  desc: "Diploma and B.Tech in Computer Science and Engineering, equipping me with in-depth knowledge in software development, algorithms, and cutting-edge technologies.",
   items: [
     {
       institution: "GIST",
@@ -114,19 +100,19 @@ const education = {
 };
 const skills = {
   title: "My Skills",
-  desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat quae et, est fugit totam assumenda fugiat, doloribus voluptatibus deserunt",
+  desc: "Proficient in Laravel, WordPress, React.js, and Next.js. Experienced with PHP, Tailwind CSS, JavaScript, HTML, and CSS, creating dynamic and responsive web applications.",
   skillList: [
     {
-      icon: <FaHtml5 />,
-      name: "html 5",
+      icon: <FaWordpress />,
+      name: "wordpress",
     },
     {
-      icon: <FaCss3 />,
-      name: "css 3",
+      icon: <FaLaravel />,
+      name: "laravel",
     },
     {
-      icon: <FaJs />,
-      name: "javascript",
+      icon: <FaPhp />,
+      name: "php",
     },
     {
       icon: <FaReact />,
@@ -137,20 +123,24 @@ const skills = {
       name: "next.js",
     },
     {
-      icon: <FaNodeJs />,
-      name: "node.js",
+      icon: <FaJs />,
+      name: "javascript",
     },
     {
       icon: <SiTailwindcss />,
       name: "tailwind css",
     },
     {
-      icon: <FaLaravel />,
-      name: "laravel",
+      icon: <FaHtml5 />,
+      name: "html 5",
     },
     {
-      icon: <FaPhp />,
-      name: "php",
+      icon: <FaCss3 />,
+      name: "css 3",
+    },
+    {
+      icon: <FaNodeJs />,
+      name: "node.js",
     },
   ],
 };

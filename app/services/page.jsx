@@ -7,32 +7,32 @@ const services = [
   {
     num: "01",
     title: "Web Development",
-    text: "I build websites that serve as powerful marketing tools and have a long.",
+    text: "Expertise in web development, designing responsive and interactive websites using cutting-edge technologies and frameworks.",
   },
   {
     num: "02",
-    title: "App Development",
-    text: "I build websites that serve as powerful marketing tools and have a long.",
+    title: "Theme Development",
+    text: "Experienced in WordPress theme development, crafting custom, visually appealing themes tailored to unique client needs.",
   },
   {
     num: "03",
-    title: "Software Development",
-    text: "I build websites that serve as powerful marketing tools and have a long.",
+    title: "Plugin Development",
+    text: "Proficient in WordPress plugin development, creating custom plugins to extend functionality and enhance website performance.",
   },
   {
     num: "04",
-    title: "Game Development",
-    text: "I build websites that serve as powerful marketing tools and have a long.",
+    title: "Software Development",
+    text: "Skilled in software development, building robust applications with efficient code and scalable architecture for diverse needs.",
   },
   {
     num: "05",
-    title: "Mobile Development",
-    text: "I build websites that serve as powerful marketing tools and have a long.",
+    title: "Game Development",
+    text: "Experienced in game development, designing engaging, interactive games with compelling mechanics and immersive graphics.",
   },
   {
     num: "06",
-    title: "Data Science",
-    text: "I build websites that serve as powerful marketing tools and have a long.",
+    title: "Mobile App Development",
+    text: "Expertise in mobile app development, creating intuitive, high-performance applications for seamless user experiences on all devices.",
   },
 ];
 const Services = () => {

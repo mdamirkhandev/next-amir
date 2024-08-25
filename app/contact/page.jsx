@@ -15,7 +15,7 @@ import {
 import { FaEnvelope, FaMapMarkerAlt, FaPhoneAlt } from "react-icons/fa";
 
 const info = [
-  { icon: <FaPhoneAlt />, title: "Phone", desc: "(+91) 886 660 8738" },
+  { icon: <FaPhoneAlt />, title: "Phone", desc: "(+91) 886-600-8738" },
   { icon: <FaEnvelope />, title: "Email", desc: "amirkhandev@gmail.com" },
   { icon: <FaMapMarkerAlt />, title: "Location", desc: "Surat, India" },
 ];
@@ -40,7 +40,7 @@ const Contact = () => {
               className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl"
             >
               <h3 className="text-4xl text-accent">Get in touch</h3>
-              <p>Fill up the form and I'll get back to you within 24 hours</p>
+              <p>Fill up the form and I will get back to you within 24 hours</p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <Input type="text" placeholder="Firstname" />
                 <Input type="text" placeholder="Lastname" />

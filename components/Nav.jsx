@@ -9,19 +9,19 @@ const links = [
   },
   {
     name: "resume",
-    path: "/resume",
+    path: "/resume/",
   },
   {
     name: "services",
-    path: "/services",
+    path: "/services/",
   },
   {
     name: "Works",
-    path: "/works",
+    path: "/works/",
   },
   {
     name: "contact",
-    path: "/contact",
+    path: "/contact/",
   },
 ];
 export const Nav = () => {
