@@ -41,7 +41,7 @@ const about = {
     },
     {
       title: "Email",
-      desc: "amirkhandev@gmail.com",
+      desc: "mdamirkhan.dev@gmail.com",
     },
     {
       title: "Freelance",
